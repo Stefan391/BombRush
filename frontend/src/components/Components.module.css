@@ -1,0 +1,51 @@
+.HeaderHolder {
+  background: #7855c7;
+  color: #fff;
+  display: flex;
+  align-items: stretch;
+  height: 3.5em;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-family: "Pacifico", sans-serif;
+  text-transform: lowercase;
+  text-shadow: 0.05em 0.1em 0 rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+  display: flex;
+  flex-flow: column;
+}
+
+h1 a {
+  flex: 1;
+  line-height: 2.2;
+  padding: 0 0.5em 0 0.7em;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.HeaderLoginPartial {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.Footer {
+  padding: 0.5em;
+  font-size: 1.5em;
+  color: #444;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.2;
+  font-family: "Pacifico", sans-serif;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: inherit;
+}

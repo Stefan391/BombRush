@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+html,
+body {
+  font-family: "Varela Round", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #445061;
+  color: #111;
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+}

@@ -453,3 +453,45 @@ button.styled.blue:hover {
   border-right: transparent;
   box-shadow: 0 0 0.5em #eee inset;
 }
+
+.GameHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(120, 85, 199);
+  color: rgb(238, 238, 238);
+}
+
+.GameHeaderLeft {
+  display: flex;
+  gap: 1px;
+}
+
+.GameCode {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.5em;
+  cursor: copy;
+  user-select: none;
+}
+
+.GameCode:active {
+  background-color: rgba(32, 32, 32, 0.5);
+}
+
+.GameCodeBlurred {
+  filter: blur(0.2em);
+}
+
+.GameInfo {
+  padding: 0.5em;
+}
+
+.GamePlayerNum {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 1em;
+  padding: 0.125em 0.5em;
+}
+
+.GameOwnerInfo {
+  opacity: 0.5;
+}
